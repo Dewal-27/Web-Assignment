@@ -4,65 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Kiran Bijuli Pasal-products</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #gotop{
+           text-decoration: none;
+           position: fixed;
+           bottom:20px;
+           right: 20px;
+           background-color: #007bff;
+           color: white;
+           padding: 10px;
+           border-radius: 20px;
+        }
+    </style>
 </head>
 <body>
+<div class="grid">
     <!-- Navigation Bar  -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact_us.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <blockquote>
-    <h1>Our Products</h1>
-    <p id="#top">At Dev Kiran Bijuli Pasal, we offer a many high-quality electrical products designed
-        for both home and industrial use.<br> Our shop includes LED bulbs, wires, switches, sockets, fans,
-        bulb holders, multiplugs, and various other electrical<br> accessories to meet your needs. We wnsure
-        linglasting performance and safety with every product we sell.Whether<br> you are building a new house,
-        repairing an old one, or upgrading appliences, our product provide durability and reliability.<br>
-        Explore our wide range of electrical products below:   
-    </p>
-     <div class="images">
-        <ul>
-            <li><h2>LED Bulbs</h2><br> 
-            <img src="images/bulb1.jpg" alt="Bulb" width="200" height="150">
-            <img src="images/bulb2.jpg" alt="Bulb" width="200" height="150"></li>
-            <li><h2>Wires</h2><br> 
-            <img src="images/wires.jpg" alt="Wires" width="200" height="150">
-            <img src="images/wires2.jpg" alt="Wires" width="200" height="150"></li>
-            <li><h2>Switches and Sockets</h2><br>
-            <img src="images/switches3.jpg" alt="Switches" width="200" height="150">
-            <img src="images/switches4.jpg" alt="Switches" width="200" height="150">
-            <img src="images/switches6.jpg" alt="Switches" width="200" height="150"></li>
-            <li><h2>Fans </h2><br>
-            <img src="images/fan1.jpg" alt="Fans" width="200" height="150">
-            <img src="images/fan2.jpg" alt="Fans" width="200" height="150">
-            <img src="images/fan3.jpg" alt="Fans" width="200" height="150"></li>
-            <li><h2>Bulb holders</h2><br>
-            <img src="images/holder1.jpg" alt="Bulb Holders" width="200" height="150">
-            <img src="images/holder2.jpg" alt="Bulb Holders" width="200" height="150">
-            <img src="images/holder3.jpg" alt="Bulb Holders" width="200" height="150"></li>
-            <li><h2>Multiplugs</h2><br>
-            <img src="images/multiplug1.jpg" alt="Multiplugs" width="200" height="150">
-            <img src="images/multiplug2.jpg" alt="Multiplugs" width="200" height="150">
-            <img src="images/multiplug3.jpg" alt="Multiplugs" width="200" height="150"></li>
-            <li><h2>Other Electrical Accessories</h2><br>
-            <img src="images/accessories.jpg" alt="Other Accessories" width="200" height="150">
-            <img src="images/2pin.jpg" alt="Other Accessories" width="200" height="150">
-            <img src="images/wireclip.jpg" alt="Other Accessories" width="200" height="150">
-            <img src="images/listic.jpg" alt="Other Accessories" width="200" height="150"></li>
-        </ul>
-        <hr>
+    <div class="nav">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact_us.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-    <p>You can search for more products in the links below: <br>
-    <a href="https://www.daraz.com.np">www.daraz.com.np</a><br>
-    <a href="https://www.hamrobazaar.com">www.hamrobazaar.com</a></p><br>
-    <a href="#top">Go to top</a>
-    </blockquote>    
+
+    <div class="container">
+        <h1>Our Products</h1>
+        <p id="#top">At Dev Kiran Bijuli Pasal, we offer a many high-quality electrical products designed
+            for both home and industrial use. Our shop includes LED bulbs, wires, switches, sockets, fans,
+            bulb holders, multiplugs, and various other electrical accessories to meet your needs. We wnsure
+            linglasting performance and safety with every product we sell.Whether you are building a new house,
+            repairing an old one, or upgrading appliences, our product provide durability and reliability.
+            Explore our wide range of electrical products below:   
+        </p>
+        <div class="items">
+            <ul>
+                <li><h2>LED Bulbs</h2><br><br>
+                <img src="images/bulb1.jpg" alt="Bulb" >
+                <img src="images/bulb2.jpg" alt="Bulb" ></li><br>
+                <li><h2>Wires</h2><br>
+                <img src="images/wires.jpg" alt="Wires" >
+                <img src="images/wires2.jpg" alt="Wires" ></li><br>
+                <li><h2>Switches and Sockets</h2><br>
+                <img src="images/switches3.jpg" alt="Switches" >
+                <img src="images/switches4.jpg" alt="Switches" >
+                <img src="images/switches6.jpg" alt="Switches" ></li><br>
+                <li><h2>Fans </h2><br>
+                <img src="images/fan1.jpg" alt="Fans" >
+                <img src="images/fan2.jpg" alt="Fans" >
+                <img src="images/fan3.jpg" alt="Fans" ></li><br>
+                <li><h2>Bulb holders</h2><br>
+                <img src="images/holder1.jpg" alt="Bulb Holders" >
+                <img src="images/holder2.jpg" alt="Bulb Holders" >
+                <img src="images/holder3.jpg" alt="Bulb Holders" ></li><br>
+                <li><h2>Multiplugs</h2><br>
+                <img src="images/multiplug1.jpg" alt="Multiplugs" >
+                <img src="images/multiplug2.jpg" alt="Multiplugs" >
+                <img src="images/multiplug3.jpg" alt="Multiplugs" ></li><br>
+                <li><h2>Other Electrical Accessories</h2><br>
+                <img src="images/2pin.jpg" alt="Other Accessories" >
+                <img src="images/wireclip.jpg" alt="Other Accessories" >
+                <img src="images/listic.jpg" alt="Other Accessories" ></li><br>
+            </ul>
+        </div>
+        <p>You can search for more products in the links below: <br>
+        <a href="https://www.daraz.com.np">www.daraz.com.np</a><br>
+        <a href="https://www.hamrobazaar.com">www.hamrobazaar.com</a></p><br>
+        <a href="#top" id="gotop">Go To Top</a>
+      
+    </div>
+    <footer>
+        <h2>Dev Kiran Bijuli Pasal</h2>
+        <ul>
+            <li>Phone no: 9766829486 </li>
+            <li>Email: dewalbhandari@gmail.com</li>
+            <li>Address: Gaindakot-2,Nawalpur,Nepal</li>
+            <li><a href="https://www.google.com/maps/place/Dev+Kiran+shop/@27.7074767,84.4165635,17z/data=!4m6!3m5!1s0x3994fbc50ad1ce1b:0xbc97a4a0fa1a78cf!8m2!3d27.7074776!4d84.4187447!16s%2Fg%2F11kq2xpp81?authuser=0&entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" >
+                    In Google Map Location</a></li>
+        </ul>
+        <br>
+        <p>&copy;2026 Dev Kiran Bijuli Pasal. All Rights Reserved.</p>
+    </footer>
+</div>   
 </body>
 </html>
